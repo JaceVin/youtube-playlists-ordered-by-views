@@ -1,9 +1,10 @@
 <script lang='ts'>
-
+    import type { PageData } from './$types'
+    export let data: PageData
 </script>
 
 <template lang='pug'>
-    h1 Welcome to SvelteKit
+    h1 Hello {data.firstname} {data.lastname}! Welcome to SvelteKit
     p
         |Visit
         |
