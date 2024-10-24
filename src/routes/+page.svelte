@@ -5,13 +5,7 @@
 
 <template lang='pug'>
     h1 Hello {data.firstname} {data.lastname}! Welcome to SvelteKit
-    p
-        |Visit
-        |
-        a(href='https://kit.svelte.dev').
-            kit.svelte.dev
-        |
-        |to read the documentation
+    p Visit #[a(href='https://kit.svelte.dev') kit.svelte.dev] to read the documentation
 </template>
 
 <style lang='sass'>
