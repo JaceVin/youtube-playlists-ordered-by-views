@@ -1,1 +1,1 @@
-export const ssr: boolean = false
+export const ssr: boolean = false   // Prevents billing for server-side services    // Required to build with @sveltejs/adapter-static from svelte.config.js
