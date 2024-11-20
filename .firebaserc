@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "yt-playlists-ordered-by-views"
-  }
+    "default": "jacevin-92d6b",
+    "jacevin-youtube": "jacevin-92d6b"
+  },
+  "targets": {},
+  "etags": {}
 }
